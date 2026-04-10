@@ -18,7 +18,8 @@ FONT_STATUS = ("Segoe UI", 10, "bold")
 class AutoClicker:
     def __init__(self):
         self.root = tk.Tk()
-        self.root.title("Auto Clicker")
+        self.root.title("ClickWise")
+        self.root.iconbitmap("app.ico")
         self.root.geometry('480x420')
         self.frames: dict[str, tk.Frame] = {}
         self.inputerror = False
