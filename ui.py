@@ -2,8 +2,6 @@ import pyautogui
 import threading
 
 import tkinter as tk
-
-from PIL import Image
 from pynput import mouse
 from automation import action_lists
 from automation import clicking
